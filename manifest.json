@@ -1,0 +1,17 @@
+{
+  "name": "Ed Lesson Transcript Creator",
+  "description": "",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["tabs", "webRequest", "storage", "activeTab"],
+  "host_permissions": [
+    "https://edstem.org/*/courses/*/lessons/*",
+    "https://cfvod.kaltura.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "window.html"
+  }
+}
