@@ -1,10 +1,26 @@
 body {
-  width: 600px;
-  height: 300px;
+  width: 400px;
+  height: 600px;
+  padding: 10px;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
 }
 
 textarea {
-  margin-top: 5px;
   width: 100%;
-  height: 100%;
+  height: 90%;
+}
+
+.input-area input {
+  width: 100%;
+}
+
+.input-area {
+  width: 100%;
+  height: 50px;
+}
+
+.transcript-area {
+  height: 400px;
 }

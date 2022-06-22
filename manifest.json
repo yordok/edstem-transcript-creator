@@ -13,5 +13,12 @@
   },
   "action": {
     "default_popup": "window.html"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://edstem.org/*/courses/*/lessons/*"],
+      "js": ["content-script.js"],
+      "run_at": "document_end"
+    }
+  ]
 }

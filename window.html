@@ -4,8 +4,24 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <span id="url"></span>
-    <textarea disabled id="textarea"></textarea>
+    <div id="content">
+      <div class="input-area">
+        <div>URL</div>
+        <input type="text" disabled id="url" />
+      </div>
+      <div class="input-area">
+        <div>Title</div>
+        <input type="text" disabled id="header" />
+      </div>
+      <div class="transcript-area">
+        <div>Transcript</div>
+        <textarea disabled id="textarea"></textarea>
+      </div>
+      <div>
+        <button type="button" id="copy-btn">Copy Transcript</button>
+        <span id="msg-area"></span>
+      </div>
+    </div>
   </body>
   <script src="window.js"></script>
 </html>
